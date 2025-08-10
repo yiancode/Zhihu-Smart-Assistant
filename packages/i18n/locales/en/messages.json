@@ -1,11 +1,11 @@
 {
   "extensionDescription": {
     "description": "Extension description",
-    "message": "用来一键对知乎进行换装，方便摸鱼！"
+    "message": "用来一键对知乎进行换装"
   },
   "extensionName": {
     "description": "The name of the extension",
-    "message": "小狗爱摸鱼"
+    "message": "知乎智能助手"
   },
   "toggleTheme": {
     "message": "Toggle theme"

@@ -47,11 +47,7 @@ const Popup = () => {
           logoContainer.querySelector('svg').style.height = '24px';
         }
 
-        // 修改所有QuestionHeader-title元素的文本
-        const titleElements = document.getElementsByClassName('QuestionHeader-title');
-        for (const element of titleElements) {
-          element.textContent = 'xxx项目文档';
-        }
+        // 保留原始标题，不修改QuestionHeader-title元素的文本
 
         // 移除侧边栏元素
         const sideElements = document.querySelectorAll('.QuestionHeader-side, .Question-sideColumn');

@@ -36,7 +36,7 @@ const manifest = withSidePanel({
    * if you want to support multiple languages, you can use the following reference
    * https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Internationalization
    */
-  name: '小狗爱摸鱼',
+  name: '知乎智能助手',
   version: packageJson.version,
   description: '__MSG_extensionDescription__',
   host_permissions: ['*://*.zhihu.com/*'],
